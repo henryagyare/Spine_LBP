@@ -1,0 +1,2 @@
+0 with_pain
+1 without_pain

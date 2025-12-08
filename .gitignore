@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+.venv/
+
+# Environment variables (contains API keys)
+.env
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Data
+# data/
+# *.h5  ← Commented to allow model deployment
+*.pkl
+*.npy
+
+# Model files (keep structure, ignore trained models)
+# model/*.h5  ← Commented out to allow deployment
+model/*.tflite
+model/*.pb
+model/variables/
+!model/.gitkeep
+
+# Streamlit
+.streamlit/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+training_log.txt
+
+# Training outputs
+# *.png
+!training_history.png
+
+# Large dataset folder (if present)
+01_MRI_Data/
+
